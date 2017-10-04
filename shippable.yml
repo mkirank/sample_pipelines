@@ -6,6 +6,7 @@ build:
     image_name: drydock/u14nod
     image_tag: prod
     pull: true
+    options: "--net=host"
   ci:
     - echo "here_askask_1"
     - echo "there_1"
